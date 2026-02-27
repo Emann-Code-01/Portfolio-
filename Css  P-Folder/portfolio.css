@@ -78,7 +78,7 @@ button:hover{
     transform: scale(1.1);
     transition: transform 0.5s ;
 }
-.me{
+.center{
     text-align: center;
     font-size: 50px;
     color:#11ffff;
@@ -121,11 +121,6 @@ button:hover{
 }
 
 
-#skills{
-    position: relative;
-    width: ;
-    height: 500px;
-}
 .skill{
     font-size: 50px;
     text-align: center;
@@ -137,9 +132,7 @@ button:hover{
     padding: 30px;
 }
 .three{
-    position: absolute;
-    top:45px;
-    right: 440px;
+    padding-top: -10px;
     font-size: 20px;
     text-align: center;
     color: #11ffff;
@@ -185,6 +178,14 @@ button:hover{
     color: #11ffff;
     border: 2px solid #11ffff;
 }
-
+.excited{
+    text-align: center;
+    color: #11ffff;
+    font-size: 20px;
+}
+.email{
+    border: 2px solid black;
+    
+}
 
     
