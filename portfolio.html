@@ -4,72 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="Stylesheet" href="Css  P-Folder/portfolio.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>My Portfolio Page</title>
 </head>
 <header>
-        <h1 id="logo">Isaac</h1>
         <nav>
-        <ul>
-            <li> <a href="#hero">Home</a></li>
-            <li> <a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li> <a href="#work">Projects</a></li>
-            <li> <a href="#contact">Contact</a></li>
-        </ul>
+        <ul class="nav-links" >
+            <li> <a href="#hero" class="nav-link">Home</a></li>
+            <li> <a href="#about"class="nav-link">About</a></li>
+            <li><a href="#skills"class="nav-link">Skills</a></li>
+            <li> <a href="p-projects.html" target="_parent" class="nav-link">Projects</a></li>
+            <li> <a href="#contact"class="nav-link">Contact</a></li>
+        </ul>   
     </nav>
 </header>
     <body>
         <main>
     <section id="hero">
-       <div class="middle"> 
     <h1 class="color"> Hello,<br>
-        <span class="name"> I am Gbadebo Isaac</span> </h1>
-    <div class="title"> Frontend Developer</div>
-    <p class="one"> I build clean ,responsive websites with simple code and user friendly designs.Specializing in modern web technologies to create exceptional digital experience.</p>
+        <span class="name"> I'm Gbadebo Isaac</span> </h1>
+    <div class="title">A Creative Frontend Developer
+    <p class="one"> I build clean, responsive websites with simple code and user friendly designs.Specializing in modern web technologies to create exceptional digital experience.</p>
     
     <div class="container">
-    <button type="submit"> See My Work</button>
-    <button type="submit"> Get In Touch</button>
+    <a href="p-projects.html" class="btn"> See My Work</a>
+    <a href="mailto:gbadeboisaac6@gmail.com" class="in-touch">Get In Touch</a>
     </div>
        </div>
     </section>
-<section id="about">
-    <h1 class="center">Who am I</h1>
-    <div class="image">
-        <img src="Images/IMG_20251116_134746_341~2.jpg" alt="Isaac">
-        <p class="two">I'm a front-end developer passionate about building clean, responsive, and user-friendly websites. I focus on writing well-structured HTML and continuously improving my CSS skills to create visually engaging web experiences. I'm committed to growth and dedicated to turning ideas into functional digital solutions.</p>
-    <div>
+
+
+
+    
+    <!--Add more to my about section-->
+    <section id="about">
+        <h1 class="center">Who am I</h1>
+        <div class="about-container">
+        <img src="Images/IMG_20251116_134746_341~2.jpg">
+        <article class="auto">
+        <p class="two">I'm a front-end developer passionate about building clean, responsive, and user-friendly websites. I focus on writing well-structured HTML and continuously improving my CSS skills to create visually engaging web experiences. I'm committed to growth and dedicated to turning ideas into functional digital solutions</p>
+        <p class="three">I'm Isaac, a passionate learner exploring web development and front-end design. I enjoy building structured HTML layouts, experimenting with styles, and turning ideas into functional projects. I'm eager to grow my skills in JavaScript, CSS, and modern web practices while creating clean, user-friendly experiences.</p>
+        </article>
+        </div>
+        <article class="more-about"><p>My journey into web development started with curiosity. I was always interested in how websites and digital products worked, which led me to explore skills like graphic design and other online tools. Over time, that curiosity grew into a deeper interest in building things myself.</p>
+
+<p>Today, I'm focused on learning web development, starting with HTML and gradually expanding my knowledge as I build real projects. Each project helps me understand more about how the web works — from structure and layout to creating clean, functional interfaces.</p>
+
+<p>Beyond coding, I enjoy learning new skills, exploring technology, and challenging myself to grow. My goal is simple: keep building, keep learning, and use technology to create opportunities for the future.</p>
+</article>
     </section> 
+
+
     <section id="skills">
         <h1 class="center">Skills & Technologies</h1>
-        <p class="three">Technologies I Work With To Build Amazing Experience</p>
+        <p class="four">Technologies I Work With To Build Amazing Experience</p>
+    
         <div class="contain">
-        <div class="html">Html</div>
-        <div class="css">Css</div>
-        <div class="vscode">Vs Code</div>
-        <div class="git">Git & GitHub</div>
+        <div class="tools">Html</div>
+        <div class="tools">Css</div>
+        <div class="tools">Vs Code</div>
+        <div class="tools">Git & GitHub</div>
         </div>
-
+        <div class="exploring">Always learning and exploring new technologies</div>
     </section> 
-    <section id="work">
-
+    
         
-    </section>
+    
     <section id="contact">
         <h1 class="center"> Let's Work Together</h1>
         <p class="excited">I am always excited to accept new challenges</p>
         <div class="contact-info">
-            <h2>Get In Touch</h2>
-            <div class="email">
-                <h3>Email</h3>
-                <address>
-                    <a href="mailto:gbadeboisaac6@gmail.com">gbadeboisaac6 </a>
-                </address>
+            <div class="contact-box">
+                <h2 class="touch">Get In Touch</h2>
+                <p class="ready">I'm always open to discussing new opportunities, collaborations, or creative projects. Whether you have a question, a project idea, or just want to connect, feel free to reach out. I'll do my best to respond as quickly as possible. Let's build something great together.</p>
+                <div class="socials">
+                <a href="https://github.com/Issy1144"  target="_blank"> <i  id="hover-1"class="fa-brands fa-github"></i></a>
+
+                <a href="https://www.instagram.com/iamisaac49/" target="_blank"><i id="hover-2" class="fa-brands fa-instagram"></i></a>
+
+                <a href=""> <i  id="hover-3" class="fa-brands fa-linkedin"></i></a>
+
+                <a href="https://x.com/Callmeisaac17" target="_blank"><i  id="hover-4" 
+                    class="fa-brands fa-twitter"></i></a>
+                <a href="https://wa.me/2349053697018" target="_blank"><i class="fa-brands fa-whatsapp" id="hover-5"></i> </a>
+                <a href=""> </a>
+                </div>
             </div>
-            <div class="phone"></div>
-            <div class="location"></div>
-        </div>
     </section>
+    <footer>
+        <p class="f-center">© 2026 Gbadebo Isaac I. </p>
+    </footer>
         </main>
 </body>
 </html>
